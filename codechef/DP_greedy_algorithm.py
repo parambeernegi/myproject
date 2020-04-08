@@ -4,8 +4,10 @@
 
 # given length of rode is n inches and a table of prices pi fro i from 1 to n
 # comupute the maximum revenue rn obtainable by cutting up th e rod and  selling the pieces,
+# if price of pn is so large so no need to cut the part
 
 
+def cut_rod(p,n):
     if n==0:
          return 0
     q=-1    
